@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap_lumen.min.css">
     <title>Imagine</title>
 </head>
 <body>
@@ -34,7 +34,7 @@
     </div>
 </nav>
 <!-- page> <!-->
-
+<form id="form">
 <div class="container text-center">
     <div class="panel panel-default">
         <div class="panel-body">
@@ -50,7 +50,7 @@
                             <h3 class="panel-title">Rango de edades</h3>
                         </div>
                         <div class="panel-body">
-                            <select class="form-control" id="select1">
+                            <select class="form-control" id="select1" onchange="changeAction()">
                                 <option value="1">0-2</option>
                                 <option value="2">3-5</option>
                                 <option value="3">6-8</option>
@@ -92,13 +92,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-4">
-                    <a href="lvl1.html" class="btn btn-success btn-lg btn-block">Generar Actividad</a>
+                    <button type="submit" class="btn btn-success btn-lg btn-block">Generar Actividad</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+</form>
 
 
 
